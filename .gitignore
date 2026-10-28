@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+
+data/
+outputs/
+
+.venv/
+.matplotlib/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# Local development notes and agent configuration (not public documentation).
+/nullspace_gpis_design_doc.md
+/nullspace_manifold_database_interpolation_experiment_plan.md
+/planar3r_obstacle_collision_dataset_design.md
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# Generated data and local environments, including files outside default folders.
+*.h5
+*.hdf5
+*.npy
+*.npz
+venv/
+env/
+*.log
